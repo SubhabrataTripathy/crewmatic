@@ -21,32 +21,34 @@ Hire AI employees, set goals, automate jobs — and your business runs itself.
 
 ---
 
-## 🤔 What is Crewmatic?
+## 💡 What is Crewmatic?
 
-Crewmatic is an orchestration platform for **autonomous AI companies**. Think of it like a task manager, but for AI agents — where you're the CEO and your entire workforce is AI.
+**Imagine you're running a company — but instead of hiring humans, you hire AI agents.**
 
-If [OpenClaw](https://github.com/openclaw) is an employee, **Crewmatic is the company**.
+Crewmatic is a dashboard that lets you manage all your AI workers from one place. You can:
 
-### The Problem
+- **Hire agents** like Claude, OpenClaw, or Codex — just like hiring employees
+- **Give them tasks** using a drag-and-drop board
+- **Watch them work** in real-time
+- **Track spending** so you know exactly what each agent costs
+- **Get alerts** when something goes wrong or a budget runs out
 
-You're running 20 Claude Code terminals, 5 Codex instances, and a custom OpenClaw agent — all working on the same product. You've lost track of:
+### 🧐 Why do I need this?
 
-- ❌ Who's doing what
-- ❌ How much each agent is costing you
-- ❌ Whether agents are even still alive
-- ❌ What happened 2 hours ago when something broke
+If you've ever had multiple AI tools running at the same time, you know the chaos:
 
-### The Solution
+| Without Crewmatic | With Crewmatic |
+|---|---|
+| 😵 20 terminal windows, no idea who's doing what | 📋 One dashboard showing all agents and tasks |
+| 💸 Bills piling up with no breakdown | 💰 Per-agent cost tracking with budget limits |
+| 🔇 Agent crashed 2 hours ago, nobody noticed | 💓 Heartbeat monitoring with instant alerts |
+| 🤷 "What happened last night?" | 📜 Full audit trail of every action |
 
-Crewmatic gives you a **command center** to:
+### In short:
 
-- ✅ **Hire AI agents** — Claude, OpenClaw, Codex, or bring your own
-- ✅ **Assign tasks** — Kanban board with automatic agent assignment
-- ✅ **Monitor costs** — Per-agent spend tracking with budget alerts
-- ✅ **Track health** — Heartbeat monitoring with auto-recovery
-- ✅ **Audit everything** — Full activity log of every agent action
-- ✅ **Set goals** — OKR-style tracking aligned to business objectives
-- ✅ **Enforce policies** — Human approval for deploys, budget caps, governance
+> **If an AI agent is an employee, Crewmatic is the company they work at.**
+>
+> You're the CEO. Crewmatic is your office, your HR system, and your accounting department — all in one.
 
 ---
 
@@ -80,33 +82,35 @@ This starts:
 
 ## 📸 Screenshots
 
-<details>
-<summary><b>🖥️ Dashboard — Command Center</b></summary>
-<br/>
-<img src=".github/screenshot-dashboard.png" alt="Dashboard" width="100%" />
-<p><em>Real-time metrics, spend trends, cost charts, agent status, and live activity feed — all from the SQLite database.</em></p>
-</details>
+### 🖥️ Dashboard — Your Command Center
 
-<details>
-<summary><b>🤖 Agents — AI Workforce</b></summary>
-<br/>
-<img src=".github/screenshot-agents.png" alt="Agents" width="100%" />
-<p><em>Hire and fire agents. Each card shows status, current task, completed tasks, cost, uptime, and last heartbeat.</em></p>
-</details>
+See everything at a glance: active agents, tasks in progress, money spent, and live activity.
 
-<details>
-<summary><b>📋 Tasks — Kanban Board</b></summary>
-<br/>
-<img src=".github/screenshot-tasks.png" alt="Tasks" width="100%" />
-<p><em>5-column kanban (Backlog → Assigned → In Progress → Review → Done). Create tasks inline, move them between columns — all persisted via API.</em></p>
-</details>
+<img src=".github/screenshot-dashboard.png" alt="Crewmatic Dashboard" width="100%" />
 
-<details>
-<summary><b>💰 Budget — Cost Control</b></summary>
-<br/>
-<img src=".github/screenshot-budget.png" alt="Budget" width="100%" />
-<p><em>Budget gauge, per-agent cost donut chart, daily spend trend. Automatic alerts when spending exceeds thresholds.</em></p>
-</details>
+---
+
+### 🤖 Agents — Your AI Workforce
+
+Hire and manage AI agents. Each card shows what they're working on, how much they've cost, and whether they're still alive.
+
+<img src=".github/screenshot-agents.png" alt="Crewmatic Agents" width="100%" />
+
+---
+
+### 📋 Tasks — Kanban Board
+
+Organize work across 5 columns: Backlog → Assigned → In Progress → Review → Done. Add tasks with one click.
+
+<img src=".github/screenshot-tasks.png" alt="Crewmatic Tasks" width="100%" />
+
+---
+
+### 💰 Budget — Know Where Your Money Goes
+
+Track every dollar. Set spending limits. Get warnings before you overspend.
+
+<img src=".github/screenshot-budget.png" alt="Crewmatic Budget" width="100%" />
 
 ---
 
