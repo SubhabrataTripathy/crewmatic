@@ -14,6 +14,7 @@ import tasksRouter from './routes/tasks.js';
 import budgetRouter from './routes/budget.js';
 import auditRouter from './routes/audit.js';
 import goalsRouter from './routes/goals.js';
+import settingsRouter from './routes/settings.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -39,6 +40,7 @@ app.use('/api/tasks', tasksRouter);
 app.use('/api/budget', budgetRouter);
 app.use('/api/audit', auditRouter);
 app.use('/api/goals', goalsRouter);
+app.use('/api/settings', settingsRouter);
 
 // Health check
 app.get('/api/health', (_req, res) => {

@@ -76,5 +76,13 @@ export const api = {
       request<any>(`/goals/${id}`, { method: 'DELETE' }),
   },
 
+  settings: {
+    get: (companyId: string) => request<any>(`/settings/${companyId}`),
+    update: (companyId: string, data: Record<string, string>) =>
+      request<any>(`/settings/${companyId}`, { method: 'PUT', body: JSON.stringify(data) }),
+    reset: (companyId: string) =>
+      request<any>(`/settings/${companyId}/reset`, { method: 'PUT' }),
+  },
+
   health: () => request<any>('/health'),
 };
